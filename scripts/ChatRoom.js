@@ -12,13 +12,13 @@ export class ChatRoom extends React.Component {
         Socket.emit('new number', {
             'number': random,
         });
-        console.log('Sent a random number to server!');
+        console.log('submit!');
     }
 
     render() {
         return (
             <form onSubmit={this.handleSubmit}>
-                <button>Send up a random number!</button>
+                <button>Submit!</button>
             </form>
         );
     }
