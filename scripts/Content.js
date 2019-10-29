@@ -26,7 +26,7 @@ export class Content extends React.Component {
         let my_rand_num = this.state.number_received;
         return (
             <div>
-                <h1>Random number!</h1>
+                <h1>You Know Da Vibez</h1>
                 <ul>{my_rand_num}</ul>
                 <ul>{generated_num}</ul>
                 <ChatRoom />
