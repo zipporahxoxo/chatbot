@@ -36,10 +36,13 @@ export class Content extends React.Component {
     render() {
         
         return (
-            <div1 style={{backgroundColor: '#e6ffff', position: 'absolute', left: '25%', width: '700px', height: '1000px', border: '1px solid #000'}}>
-            <h1>CHATBOT</h1>
+            <div1 style={{backgroundColor: '#ffe680', position: 'absolute', left: '25%', width: '700px', height: '1000px', border: '1px solid #000'}}>
+            <h1>CHATROOM</h1>
             <h2> USERNAME </h2>
+            
             <div2 style={{backgroundColor: 'white', position: 'absolute', left: '5%', width: '150px', height: '300px', border: '1px solid #000'}}> </div2>
+            
+            
             <div3 style={{backgroundColor: 'white', position: 'absolute', left: '30%', width: '400px', height: '300px', border: '1px solid #000'}}> </div3>
                 <form onSubmit={this.handleSubmit}>
                 <label style={{ color:'black' }}>
