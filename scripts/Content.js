@@ -36,19 +36,31 @@ export class Content extends React.Component {
     render() {
         
         return (
-            <div style={{backgroundColor: 'white', position: 'absolute', left: '25%', width: '700px', height: '1000px', border: '1px solid #000'}}>
+            <div1 style={{backgroundColor: '#e6ffff', position: 'absolute', left: '25%', width: '700px', height: '1000px', border: '1px solid #000'}}>
             <h1>CHATBOT</h1>
+            <h2> USERNAME </h2>
+            <div2 style={{backgroundColor: 'white', position: 'absolute', left: '5%', width: '150px', height: '400px', border: '1px solid #000'}}> </div2>
             
                 <form onSubmit={this.handleSubmit}>
                 <label style={{ color:'black' }}>
-                Username:
+                
+                <h3> ENTER USERNAME </h3>
+                
                 <input value={this.state.username} onChange={this.handleUsernameChange}/>
-                Message:
+                
+                
+                
+               <h4> MESSAGE</h4>
+               
                 <textarea value={this.state.value} onChange={this.handleChange} />
                 </label>
+                
+                <h5>
                 <input type="submit" value="Submit" />
+                </h5>
+                
                 </form>
             
-        </div> ); 
+        </div1> ); 
     }
 }
